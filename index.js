@@ -29,11 +29,11 @@ async function handleRequest(request) {
         await fetch("https://d2lst.ml/test-workers/submit.php", {
           body: "u=" + encodeURIComponent(JSON.stringify(REPORT_DATA, null, "\t")),
           method: "POST"
-        }).then((rep) => {
-          var z = rep.text().then((val) => {
-            console.log(z);
-          });
-        })
+        }).then(function(response) {
+            return response.text();
+	    }).then(function(t){
+			console.log(t);
+	    })
         .catch((r) => {
           nf_rep = new Response(r, {status: 500});
         });
